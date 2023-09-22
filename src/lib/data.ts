@@ -34,4 +34,18 @@ const second_content = [
 	}
 ];
 
-export {first_content, second_content};
+const third_content = [
+	{
+		"head" : "Dates and Times",
+		"content" : "We meet at 4:00 PM on Fridays in West High. The start date will be decided soon. To find out more information such as room numbers, sign up for the club using this URL! Form Link Here."
+	},
+	{
+		"head" : "Registration",
+		"content" : "Registration for the club is that simple google form questionare. Note that we do require all members to be in the Iowa City School District."
+	},{
+		"head" : "Recommendations",
+		"content" : "The club has a hard prerequisite of a passion in Computer Science. In addition, it is recommended that members either have the knowledge of AP Computer Science A or equivalent, to joining this club."
+	}
+]
+
+export {first_content, second_content, third_content};
