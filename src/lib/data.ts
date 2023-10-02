@@ -1,3 +1,5 @@
+// List of contents of website
+
 const first_content = [
 	{
 		"card_head": "Learn",
@@ -37,14 +39,21 @@ const second_content = [
 const third_content = [
 	{
 		"head" : "Dates and Times",
-		"content" : "We meet at 4:00 PM on Fridays in West High. The start date will be decided soon. To find out more information such as room numbers, sign up for the club using this URL! Form Link Here."
+		"content" : "We meet at 4:00 PM on Fridays in West High. The start date will be on September 9th, 2023. To find out more information such as room numbers, sign up for the club using this URL!",
+		"link":"https://tinyurl.com/wc3signup",
+		"id":8,
+		"delay":0
 	},
 	{
 		"head" : "Registration",
-		"content" : "Registration for the club is that simple google form questionare. Note that we do require all members to be in the Iowa City School District."
-	},{
+		"content" : "Registration for the club is that simple google form questionare. Note that we do require all members to be in the Iowa City School District.",
+		"id" : 9,
+		"delay":0.25
+		},{
 		"head" : "Recommendations",
-		"content" : "The club has a hard prerequisite of a passion in Computer Science. In addition, it is recommended that members either have the knowledge of AP Computer Science A or equivalent, to joining this club."
+		"content" : "The club has a hard prerequisite of a passion in Computer Science. In addition, it is recommended that members either have the knowledge of AP Computer Science A or equivalent, to joining this club.",
+		"id" : 10,
+		"delay":0.5
 	}
 ]
 

@@ -3,6 +3,7 @@
 
     export let id: number;
     export let tailwind = "";
+    export let delay = 0;
 
     let inView = false;
 
@@ -11,8 +12,10 @@
     const handleIntersection = (entries: any) => {
         entries.forEach((entry : any) => {
         if (entry.isIntersecting) {
-            // The div is in the viewport
-            inView = true;
+            // The div is in the viewport. Set inView to true after delay seconds
+            setTimeout(() => {
+                inView = true;
+            }, delay * 1000);
         } else {
             // The div is not in the viewport
             inView = false;
