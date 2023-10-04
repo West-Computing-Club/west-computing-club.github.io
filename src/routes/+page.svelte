@@ -54,7 +54,7 @@
                         <p>{content["content"]}</p>
 
                         {#if content["link"] != null}
-                            <img src="/link.svg" class="inline w-4 h-4" alt="link-icon"/>
+                            <img src="https://img.icons8.com/ios/50/FFFFFF/link--v1.png" class="inline w-4 h-4" alt="link-icon"/>
                             <a href={content["link"]} class="text-sm text-blue-400">{content["link"]}</a>
                         {/if}
                     </div>
