@@ -1,7 +1,6 @@
 <script lang="ts">
     import { onMount } from 'svelte';
-
-    export let id: number;
+    let primid = Date.now() + Math.random().toString(36).substring(2);;
     export let tailwind = "";
     export let delay = 0;
 
@@ -24,7 +23,7 @@
     };
 
     onMount(() => {
-        let targetDiv = document.querySelector('#card'+id);
+        let targetDiv = document.querySelector('#card'+primid);
         // Initialize the Intersection Observer
         const options = {
         root: null, // Use the viewport as the root
@@ -39,6 +38,6 @@
     });
 
 </script>
-<div class = {tailwind + (inView ? " animate-fade-in-fast" : " opacity-0")} id={"card"+id}>
+<div class = {tailwind + (inView ? " animate-fade-in-fast" : " opacity-0")} id={"card"+primid}>
     <slot />
 </div>
