@@ -26,7 +26,6 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^2.0.0",
-    "@sveltejs/adapter-cloudflare": "^2.3.3",
     "@sveltejs/kit": "^1.20.4",
     "@sveltejs/package": "^2.0.0",
     "publint": "^0.1.9",
@@ -43,7 +42,6 @@
     "@sveltejs/adapter-static": "^2.0.3",
     "autoprefixer": "^10.4.15",
     "postcss": "^8.4.29",
-    "tailwindcss": "^3.3.3",
-    "wrangler": "^3.10.1"
+    "tailwindcss": "^3.3.3"
   }
 }
