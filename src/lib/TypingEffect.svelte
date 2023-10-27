@@ -1,14 +1,4 @@
-<script context="module" lang="ts">
-    export interface TypingEffectProps {
-      text: string;
-      tailwind: string;
-      textAnim: string;
-      textdelay: number;
-      style?: string;
-    }
-  </script>
-  
-  <script lang="ts">
+<script lang="ts">
     export let  text: string;
     export let  tailwind: string;
     export let  textAnim: string;

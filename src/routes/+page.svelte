@@ -3,8 +3,10 @@
     import TypingEffect from "$lib/TypingEffect.svelte";
 </script>
 
+<div class="w-screen h-screen -z-10 fixed bg-[url(https://images.pexels.com/photos/207580/pexels-photo-207580.jpeg)] bg-cover"/>
+
 <!-- Front Home Page -->
-<div class="w-full h-screen flex items-center justify-center bg-black p-4">
+<div class="w-full h-screen flex items-center justify-center bg-black bg-opacity-80 p-4">
     <div class="text-white text-center md:text-left">
         <h1 class="text-2xl">WC3: Learn, Practice, Build</h1>
         <TypingEffect
@@ -18,20 +20,18 @@
 </div>
 
 <!-- Scrolling details , left information, learn, practice, build. -->
-<div class="w-full bg-black p-16">
+<div class="w-full bg-black p-16 bg-opacity-90">
     <div class="lg:w-96">
         <FadeInBox tailwind="my-32 text-white transition-all">
             <h2 class="text-2xl">Learn</h2>
             <p class="text-lg text-gray-300">
                 Explore a large variety of topics in the field of Computer Science. From web development to machine learning, we have it all. 
-                In-club lectures during club meetings will help you learn the basics of a topic. 
-                Then, apply your knowledge to a project of your choice. We also have a large library of resources for you to use.
             </p>
         </FadeInBox>
         <FadeInBox tailwind="my-32 text-white transition-all">
             <h2 class="text-2xl">Practice</h2>
             <p class="text-lg text-gray-300">
-                Long lists of programming assignments, projects, quizzes, and more to make sure you understand and remember what you need.
+                Programming assignments, projects, quizzes, and more to make sure you understand and remember what you need.
             </p>
         </FadeInBox>
         <FadeInBox tailwind="my-32 text-white transition-all">
@@ -44,7 +44,7 @@
 </div>
 
 <!-- Second right information, lectures, assignments, and projects. -->
-<div class="w-full bg-black p-16">
+<div class="w-full bg-black p-16 bg-opacity-90">
     <div class="lg:w-96 ml-auto">
             <FadeInBox tailwind="my-32 text-white transition-all">
                 <h2 class="text-2xl">
@@ -76,7 +76,7 @@
 </div>
 
 <!-- Meeting and Club Information Chunk -->
-<div class="w-full bg-black p-16">
+<div class="w-full bg-black p-16 bg-opacity-90">
     <FadeInBox tailwind="my-8">
         <h1 class="text-2xl text-white">Meetings and Club Information</h1>
     </FadeInBox>
