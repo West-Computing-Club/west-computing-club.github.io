@@ -1,6 +1,8 @@
 <script lang="ts">
-    import FadeInBox from "$lib/FadeInBox.svelte";
-    import TypingEffect from "$lib/TypingEffect.svelte";
+    import FadeInBox from "../lib/FadeInBox.svelte";
+    import TypingEffect from "../lib/TypingEffect.svelte";
+
+    
 </script>
 
 <div class="w-screen h-screen -z-10 fixed bg-[url(https://images.pexels.com/photos/207580/pexels-photo-207580.jpeg)] bg-cover"/>
