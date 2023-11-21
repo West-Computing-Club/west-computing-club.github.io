@@ -98,7 +98,7 @@
                 <br/>
 
                 <img src="https://img.icons8.com/ios/50/FFFFFF/link--v1.png" class="inline w-4 h-4" alt="link-icon"/>
-                <a href="https://tinyurl.com/wc3signup" class="text-sm text-blue-400"> https://tinyurl.com/wc3signup </a>
+                <a href="https://tinyurl.com/wc3signup" target="_blank" class="text-sm text-blue-400"> Backup-URL: https://tinyurl.com/wc3signup </a>
 
             </div>
         </FadeInBox>
