@@ -1,5 +1,8 @@
+<script>
+    import img from '$lib/wc3.png';
+</script>
 <nav id="nav" class="flex overflow-x-hidden w-full fixed p-1 bg-black bg-opacity-80 rounded-b-md">
-    <img src="https://drive.google.com/uc?export=view&id=1-hNKf_ceozK7WtQybUeY9l-BiXfDdK1o" class="w-16 h-16" alt="WC3 Logo"/>
+    <img src={img} class="w-16 h-16" alt="WC3 Logo"/>
 
     <div class="flex items-center ml-auto">
         <a href="https://github.com/West-Computing-Club">
