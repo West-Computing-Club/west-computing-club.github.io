@@ -5,12 +5,11 @@
     
 </script>
 
-<div class="w-screen h-screen -z-10 fixed bg-[url(https://images.pexels.com/photos/207580/pexels-photo-207580.jpeg)] bg-cover"/>
 
 <!-- Front Home Page -->
 <div class="w-full h-screen flex items-center justify-center bg-black bg-opacity-80 p-4">
     <div class="text-white text-center md:text-left">
-        <h1 class="text-2xl">WC3: Learn, Practice, Build</h1>
+        <h1 class="text-2xl">West Computing Group</h1>
         <TypingEffect
             tailwind="text-lg text-gray-300"
             style=""
@@ -25,19 +24,19 @@
 <div class="w-full bg-black p-16 bg-opacity-90">
     <div class="lg:w-96">
         <FadeInBox tailwind="my-32 text-white transition-all">
-            <h2 class="text-2xl">Learn</h2>
+            <h2 class="text-2xl">Symposiums</h2>
             <p class="text-lg text-gray-300">
-                Explore a large variety of topics in the field of Computer Science. From web development to machine learning, we have it all. 
+                Explore weekly talks in computer science from topics ranging from AI/ML to compilers. 
             </p>
         </FadeInBox>
         <FadeInBox tailwind="my-32 text-white transition-all">
-            <h2 class="text-2xl">Practice</h2>
+            <h2 class="text-2xl">Projects</h2>
             <p class="text-lg text-gray-300">
-                Programming assignments, projects, quizzes, and more to make sure you understand and remember what you need.
+                Join the development team for hackathons, summer projects, OSS, etc.
             </p>
         </FadeInBox>
         <FadeInBox tailwind="my-32 text-white transition-all">
-            <h2 class="text-2xl">Build</h2>
+            <h2 class="text-2xl">Mentorship</h2>
             <p class="text-lg text-gray-300">
                 The best way to learn is through experience. Build you own hands-on programming project, game, whataver it is that you are learning.
             </p>
@@ -50,13 +49,13 @@
     <div class="lg:w-96 ml-auto">
             <FadeInBox tailwind="my-32 text-white transition-all">
                 <h2 class="text-2xl">
-                    Lectures
+                    Past Symposiums
                 </h2>
                 <p class="text-lg text-gray-300">
-                    Slides during Club Meetings that cover over content! All previous slides are posted, all under the CC-BY-NC.
+                    Slides during meetings that cover over content! All previous slides are posted, all under the CC-BY-NC.
                 </p>
                 <img src="https://img.icons8.com/ios/50/FFFFFF/link--v1.png" class="inline w-4 h-4" alt="link-icon"/>
-                <p class="inline text-md text-blue-400">This link will be updated soon.</p>
+                <a href="/lectures" class="inline text-md text-blue-400">View Presentations</a>
             </FadeInBox>
             <FadeInBox tailwind="my-32 text-white transition-all">
                 <h2 class="text-2xl">
@@ -76,6 +75,7 @@
             </FadeInBox>
     </div>
 </div>
+
 
 <!-- Meeting and Club Information Chunk -->
 <div class="w-full bg-black p-16 bg-opacity-90">
