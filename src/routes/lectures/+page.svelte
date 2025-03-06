@@ -39,6 +39,16 @@
             "topic":"Public/Private Key Exchange",
             "field":"cryptography",
             "slides":"https://docs.google.com/presentation/d/1t2Jde3PqBKxUBm_PKKFw4ofHtmJZZPCjmuVmyUceiYQ/edit?usp=drive_link"
+        },
+        {
+            "topic":"Error Tracking and Monitoring [UIOWASEP'25]",
+            "field":"software",
+            "slides":"https://docs.google.com/presentation/d/1w0wWnTVUGCkXTO9vXmJs-maVvgzL24-T7g9HLsuC3rs/edit?usp=drive_link"
+        },
+        {
+            "topic":"HLGraphRAG: Human-Like Graph Retrieval Augmentation for Information Synthesis [JSHS'25]",
+            "field":"ai/ml",
+            "slides":"https://docs.google.com/presentation/d/1LICGbE6xvC3w75UI2RPSO9pJDFUmPZrH6pFvcp65Pm8/edit?usp=drive_link"
         }
     ]
 </script>
